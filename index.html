@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head lang="en">
     <meta charset="UTF-8">
     <title>启乐官网</title>
     <link rel="stylesheet" href="style.css"/>
-
+    <link rel="stylesheet" href="001.css">
     <script src="myjs.js" charset="gb2312"></script>
 </head>
 <body>
@@ -12,20 +12,22 @@
 <div class="c-nav">
     <div class="container navFlex">
         <div class="flexItem hiden">
-            <img class="btnImg" src="img/navBtn.png" />
+            <img class="btnImg" src="image/image2.jpg" alt=""/>
         </div>
         <div class="flexItem show">
             <ul>
                 <li><a href="product.html">首页</a></li>
                 <li><a href="product.html">品牌故事</a></li>
-                <div class="nud"><li><a href="product.html" class="nuda">产品中心</a></li>
+                <div class="nud">
+                    <li><a href="product.html" class="nuda">产品中心</a></li>
                     <div class="nudd">
                         <a href="product.html">客厅家具系列</a>
                         <a href="product.html">床上用品</a>
                         <a href="product.html">美容护肤系列</a>
                         <a href="product.html">精品服装</a>
                         <a href="product.html">限时优惠</a>
-                    </div></div>
+                    </div>
+                </div>
 
                 <li><a href="product.html">网上商城</a></li>
                 <li><a href="product.html">招商加盟</a></li>
@@ -35,142 +37,176 @@
         </div>
     </div>
 </div>
-<div>
-    <img class="bg1" src="image/image2.jpg" >
-</div>
 
+<div id="ha1">                                            <!-- 动画 广告轮播区域-->
+
+</div>
+<br><br>
 <div class="box">                                                 <!--第一个盒模型-->
-        <div id="ha1">                                            <!-- 动画 广告轮播区域-->
-
-        </div>
-
-        <aside id="ha3">                                          <!-- 边栏区 联系我们 -->
-            <div id="ad">
-            <img src="image/contact02.jpg" alt=""/>
-            <div>
-                <table class="tab01">
-                    <tr>
-                        <td>地址:</td>
-                        <td>北京市东城区</td>
-                    </tr>
-                    <tr>
-                        <td>电话:</td><td>010-12345678</td>
-                    </tr>
-                    <tr>
-                        <td>邮箱:</td><td>qile@163.com</td>
-                    </tr>
-                </table>
-
-            </div>
-            </div>
-        </aside>
-
+    <div>
+        <img class="bg1" src="image/image2.jpg" alt="ssss">
+    </div>
 </div>
-
+<br><br><br><br>
+<h1>亏本处理</h1>
 <div class="box01">                                             <!--第二个盒模型-->
 
-    <div class="new">                                                  <!--热卖商品-->
-        <div><img id="nd" src="image/hot.jpg" alt=""/></div><br/>
+    <div class="new" >                                                  <!--热卖商品-->
 
-        <a href="" title="棉芯枕头" id="ba1">
+        <br/>
+
+        <a href="" title="枕头" id="ba1" >
             <img id="na" src="image/product01.jpg" alt=""/><br/>
             <h3>棉芯枕头 特价￥50</h3>
         </a>
 
-        <a href="" title="机械键盘" id="ba2">
+        <a href="" title="键盘" id="ba2">
             <img id="na1" src="image/product02.jpg" alt=""/><br/>
             <h3>机械键盘 特价￥100</h3>
         </a>
 
-        <a href="" title="精美橱柜" id="ba3">
+        <a href="" title="橱柜" id="ba3">
             <img id="na2" src="image/product05.jpg" alt=""/><br/>
             <h3>精美橱柜 特价￥600</h3>
         </a>
 
-
     </div>
+    <br><br><br><br>
+</div>
+<h2>大甩卖</h2>
+<table>
+    <tr align="center">
+        <td><img src="image/手机1.webp " /></td>
 
-    <div class="register">                                               <!--登录表单-->
-        <img id="ri" src="image/register.jpg" alt=""/><br/>
+        <td><img src="image/手机2.webp " /></td>
+        <td><img src="image/手机3.webp " /></td>
+        <td><img src="image/手机4.webp " /></td>
+    </tr>
+    <tr align="center">
+        <td><a href="https://www.mi.com/redmik30s">Redmi K30s</a></td>
+        <td><a href="https://www.mi.com/buy/detail?product_id=10000267">Redmi Note9</a></td>
+        <td><a href="https://www.mi.com/redmik40ultra-k40pro">Redmi K40 Pro</a></td>
+        <td><a href="https://www.mi.com/redmik40">Redmi K40</a></td>
+    </tr>
+    <tr align="center" height="10">
+        <td>2599元</td>
+        <td>999元</td>
+        <td>2799元</td>
+        <td>1999元</td>
+    </tr>
 
-        <form action="" id="fo">
-            <table>
-            <tr>
+</table>
+
+<div class="register" >                                               <!--登录表单-->
+    <br/>
+    <h2>登录</h2>
+
+    <form action="" id="fo">
+        <table>
+            <tr >
                 <td>用户名</td>
                 <td><input type="text" id="user01" maxlength="11" placeholder="请输入您的用户名" required/></td>
             </tr>
 
-                <tr id="fot">
-                    <td>密码</td>
-                    <td><input type="password" id="password01" maxlength="16" required/></td>
-                </tr>
-
-                <tr>
-                    <th colspan="2"><input type="submit" value="登录"></th>
-                </tr>
-            </table>
-        </form>
-
-        <div class="dbd">
-        <a href="" >忘记密码</a>
-        <a href="" id="zc">注册账号</a>
-        </div>
-
-    </div>
-</div>
-
-<div class="news">
-    <img id="nei" src="image/news.jpg" alt=""/><br><br>
-    <div class="box03">
-    <div class="nd">
-        <a href="https://www.baidu.com/s?rtt=1&bsst=1&cl=2&tn=news&word=%E5%90%AF%E4%B9%90" target="_blank" title="企业新闻">CCKA零售创新奖、十大创新业态在会议期间隆重揭晓，<br>由启乐打造的时尚原创生活类
-        自营电商平台“启乐优选”<br>从上百个候选案例中脱颖而出，斩获CCKA零售创新奖。</a>
-    </div>
-
-<div id="nea02">
-        <a href="https://www.baidu.com/s?rtt=1&bsst=1&cl=2&tn=news&word=%E5%90%AF%E4%B9%90" target="_blank" title="企业新闻">启乐中国新世代于北京正式开幕。北京<br>
-            京东店选址中国电商的代表企业——总部园区内，这是<br>
-            HOTEL后在中国的一次新世代事业形态布局。</a>
-</div>
-    </div>
-
-</div><br><br><br><br>
-
-<div>
-    <div><h2>留言板</h2></div>
-    <form action="">
-        <table class="">
-            <tr>
-                <td>用户名</td>
-                <td><input type="text"/></td>
-
-                <td>QQ</td>
-                <td><input type="text"/></td>
-
-                <td>留言时间</td>
-                <td><input type="text"/></td>
-            </tr>
-            <tr>
-                <td>内容</td>
-                <td colspan="5"><input type="text"/></td>
+            <tr id="fot">
+                <td>密码</td>
+                <td><input type="password" id="password01" maxlength="16" required/></td>
             </tr>
 
             <tr>
-                <th colspan="2"><input type="submit" value="提交留言"></th>
-                <th colspan="2"><input type="submit" value="返回"></th>
+                <th colspan="2"><input type="submit" value="登录"></th>
             </tr>
-
-
         </table>
     </form>
 
+    <div class="dbd">
+        <a href="">忘记密码</a>
+        <a href="" id="zc">注册账号</a>
+    </div>
+
+<h2>新闻</h2>
+    <div class="news">
+        <br>
+        <div class="box03">
+            <div class="nd">
+                <a href="https://www.csdn.net/?spm=1000.2115.3001.5359" target="_blank"
+                   title="企业新闻">csdn<br></a>
+            </div>
+
+            <div id="nea02">
+                <a href="http://www.cnu.cc/selectedPage" target="_blank"
+                   title="企业新闻">CNU<br>
+                    </a>
+            </div>
+        </div>
+
+    </div>
+    <br><br><br><br>
+
+    <div>
+        <div><h2>留言板</h2></div>
+
+        <form action="">
+            <table class="">
+                <tr>
+                    <td>用户名</td>
+                    <td><input type="text"/></td>
+
+                    <td>QQ</td>
+                    <td><input type="text"/></td>
+
+                    <td>留言时间</td>
+                    <td><input type="text"/></td>
+                </tr>
+                <tr>
+                    <td>内容</td>
+                    <td colspan="5"><input type="text"/></td>
+                </tr>
+
+                <tr>
+                    <th colspan="2"><input type="submit" value="提交留言"></th>
+                    <th colspan="2"><input type="submit" value="返回"></th>
+                </tr>
+
+
+            </table>
+        </form>
+
+    </div>
+
+
 </div>
+<br><br><br><br>
 
 
-</div><br><br><br><br>
+<br><br><br><br>
+
+<aside id="ha3">
+    <!-- 边栏区 联系我们 -->
+    <div id="ad">
+        <img src="image/contact.jpg" alt=""/>
+        <br><br><br><br>
+        <div align="center">
+            <table class="table11_3">
+                <tr>
+                    <td>地址:</td>
+                    <td>北京市东城区</td>
+                </tr>
+                <tr>
+                    <td>电话:</td>
+                    <td>010-12345678</td>
+                </tr>
+                <tr>
+                    <td>邮箱:</td>
+                    <td>qile@163.com</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</aside>
 
 <footer>                                                                    <!-- 页脚区 -->
-            Copyright ©  All Rights Reserved. 版权所有
+    Copyright © All Rights Reserved. 版权所有
 </footer>
 <br>
 </body>

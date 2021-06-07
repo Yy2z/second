@@ -67,7 +67,7 @@ background-color: burlywood;
     position: absolute;
 
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow:  0px 8px 16px 0px black;
 
 }
 
@@ -85,7 +85,7 @@ background-color: burlywood;
 
 .nuda{
     display: inline-block;
-    text-decoration: none;
+    text-decoration: none;/*清除下划线*/
 }
 
 .nuda:hover{
@@ -94,47 +94,51 @@ background-color: burlywood;
 
 .nudd a{
     display: block;
-    color: crimson;
+    color: whitesmoke;
     padding: 12px 50px;
     text-decoration: none;
 }
 
 .box{
     display: flex;
+    height: auto; width: auto\9; width:100%;
 }
 
 
 
 @-webkit-keyframes myfirst {
     0%{
-        background-image: url("image/wuy00.jpg");
+        background-image: url("image/wu00.jpg");
 
     }
 
     25%{
-        background-image: url("image/wuy01.jpg");
+        background-image: url("image/wu01.jpg");
     }
     50%{
-        background-image: url("image/wuy02.jpg");
+        background-image: url("image/wu02.jpg");
     }
 
     75%{
-        background-image: url("image/wuy03.jpg");
+        background-image: url("image/wu03.jpg");
     }
 }
+/* css动画以百分比来规定改变发生的时间，或者通过关键词 "from" 和 "to"，等价于 0% 和 100%。0% 是动画的开始时间，100% 动画的结束时间*/
 
 
 #ha1{
-    flex: 60%;
-    width:60%;
-    height:450px;
-    background-size: 100%;
-    background-image:url("image/wuy00.jpg") ;
+    flex-shrink: 0;
+
+    height: 750px;
+
+
+    background-image:url("image/wu00.jpg") ;
     -webkit-animation: myfirst 8s infinite;
 }
 
 #ha3{
 flex: 40%;
+
 }
 #ad{
     padding-left: 20px;
@@ -152,19 +156,51 @@ flex: 40%;
     background-color: bisque;
     height: 50px;
 }
+.table11_3 table {
+    width:100%;
+    margin:25px 0;
+    border:0;
+}
+.table11_3 th {
+    background-color:#FF5675;
+    color:#FFFFFF
+}
+.table11_3,.table11_3 th,.table11_3 td {
+    font-size:0.95em;
+    text-align:center;
+    padding:4px;
+    border-collapse:collapse;
+}
+.table11_3 th,.table11_3 td {
+    border: 1px solid #fe2047;
+    border-width:1px 0 1px 0;
+    border:2px inset #ffffff;
+}
+.table11_3 tr {
+    border: 1px solid #ffffff;
+}
+.table11_3 tr:nth-child(odd){
+    background-color:#fec6d1;
+}
+.table11_3 tr:nth-child(even){
+    background-color:#ffffff;
+}
+
 .box01{
     display: flex;
 }
 .new{
-    flex: 60%;
+    flex: 10%;
+    text-align: center;
 }
 .new h3{
-    color: red;
+    color: black;
 }
 .register{
     flex: 40%;
     padding-top: 10px;
     padding-left: 20px;
+    text-align: center;
 }
 #nd{
     padding-top: 10px;
@@ -175,6 +211,7 @@ flex: 40%;
 
 #ba1{
     float: left;
+    text-align: center;
 }
 #ba2{
     float: left;
@@ -221,10 +258,12 @@ flex: 40%;
 }
 #fo{
     padding-top: 20px;
+    text-align: center;
 }
 .dbd{
     padding-left: 10px;
     padding-top: 20px;
+    text-align: center;
 }
 #zc{
     padding-left: 80px;
@@ -312,12 +351,10 @@ flex: 40%;
 / / 兼容 -webkit 内核的浏览器 top: 10 px;
 }
 
-.c-nav .logo {
-    height: 30px;
-}
+
 
 footer{
     text-align: center;
-    background-color: #83B441;
+    background-color: whitesmoke;
     height: 50px;
 }
